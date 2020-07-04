@@ -20,109 +20,124 @@ Die Webseite sollte anschließend als .zip abgegeben werden (.html, .css & img's
 Die Webseite auf Netlify hosten und den Link bei der Abgabe anhängen-->
 <html>
   <head>
-    <title>Page Title</title>
+    <title>Johannes Küng</title>
+
+    <link rel="stylesheet" href="StylesheetMeineErstWebseite.css" />
+
+    <style>
+      p {
+        color: coral;
+      }
+
+      #styleText2 {
+        color: blueviolet;
+      }
+    </style>
+    <meta charset="UTF-8" />
   </head>
 
-  <body>
+  <body class="bg">
     <header>
-      Startseite
+      <!--Style von der *.css ; in der css wird der "homepageTitle" definiert -->
+      <p class="homepageTitle">Startseite der Homepage</p>
     </header>
+
+    <div>
+      <div>
+        <!-- test wird in Farbe Aqua ausgegeben <span style="color: aqua;"> test </span>  -->
+        <!-- style von diesem HTML <p id="styleText2">text2</p> -->
+        <!-- style von diesem HTML <p>text2 ohne formatierung</p> -->
+
+        <p class="title1">Ich heiße Johannes</p>
+      </div>
+      <img
+        src="pictures/vom-affen-zum-programmierer.jpg"
+        alt="bild-vom-affen-zum-programmierer"
+      />
+    </div>
+
+    <div>
+      <p class="title1">Das hab ich bis jetzt glernt</p>
+      <ul>
+        <li>Intellij</li>
+        <li>GiHub</li>
+        <li>Slick Game Engine</li>
+        <li>MySQL</li>
+        <li>JDBC</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="title1">Links zu den verwendete Tools</p>
+
+      <ul>
+        <li><a href="https://www.jetbrains.com/de-de/idea/">Intellij</a></li>
+        <li><a href="https://github.com/">GiHub</a></li>
+        <li><a href="https://www.mysql.com/de/">MySQL</a></li>
+        <li>
+          <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/"
+            >JDBC</a
+          >
+        </li>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://notepad-plus-plus.org/">Notepad ++</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="title1">Lieblingsspeisen</p>
+      <ul>
+        <li>
+          Lasagne
+        </li>
+        <li>
+          Pizza
+        </li>
+        <li>
+          Spaghetti
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="title1">Sprachen</p>
+
+      <div>
+        <table>
+          <tr>
+            <th>Sprache</th>
+            <th>Qualifikation</th>
+          </tr>
+          <tr>
+            <td>Deutsch</td>
+            <td>Muttersprahce</td>
+          </tr>
+          <tr>
+            <td>Englisch</td>
+            <td>Gut</td>
+          </tr>
+          <tr>
+            <td>Italienisch</td>
+            <td>Ein paar Worte</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <p class="title1">
+        Hobbies
+
+        <a href="./Hoppy/Hobby.html" class="text"> - Link </a>
+      </p>
+    </div>
+
+    <footer>
+      <p class="emoji">&#128512; &#128018; &#127748; &#128693;</p>
+      Erste Webseite von Johannes Küng
+      <p class="emoji">&#128512; &#128018; &#127748; &#128693;</p>
+    </footer>
   </body>
-
-  <div>
-    <div>
-      Ich heiße Johannes
-    </div>
-    <div>Ein Bild (nicht von mir)</div>
-    <img src="pictures/bild.jpg" alt="bild" width="200" height="200" />
-  </div>
-
-  <div>
-    Das hab ich bis jetzt glernt
-    <li>Intellij</li>
-    <li>GiHub</li>
-    <li>Slick Game Engine</li>
-    <li>MySQL</li>
-    <li>JDBC</li>
-    <li>HTML</li>
-    <li>CSS</li>
-  </div>
-
-  <div>
-    Link zu den verwendete Tools:
-
-    <li><a href="https://www.jetbrains.com/de-de/idea/">Intellij</a></li>
-    <li><a href="https://github.com/">GiHub</a></li>
-    <li><a href="https://www.mysql.com/de/">MySQL</a></li>
-    <li>
-      <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/"
-        >JDBC</a
-      >
-    </li>
-    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-    <li><a href="https://notepad-plus-plus.org/">Notepad ++</a></li>
-  </div>
-
-  <div>
-    Lieblingsspeisen
-    <li>
-      Lasagne
-      <img
-        src="https://img.chefkoch-cdn.de/rezepte/745721177147257/bilder/668335/crop-600x400/lasagne.jpg"
-        alt="lasagne picture"
-        height="100"
-      />
-    </li>
-    <li>
-      Pizza
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Supreme_pizza.jpg/220px-Supreme_pizza.jpg"
-        alt="pizza picture"
-        height="100"
-      />
-    </li>
-    <li>
-      Spaghetti
-      <img
-        src="https://img.utopia.de/Pane1iPqqvguseKZEaDI5dAR0nw=/640x300/https://utopia.de/app/uploads/2020/01/spaghetti-kochen-cc0-pixabay-aneps080203-200109.jpg"
-        alt="spaghetti picture"
-        height="100"
-      />
-    </li>
-  </div>
-
-  <div>
-    Sprachen
-
-    <div>
-      <table style="width: 100%;">
-        <tr>
-          <th>Sprache</th>
-          <th>Können</th>
-        </tr>
-        <tr>
-          <td>Deutsch</td>
-          <td>Muttersprahce</td>
-        </tr>
-        <tr>
-          <td>Englisch</td>
-          <td>Gut</td>
-        </tr>
-        <tr>
-          <td>Italienisch</td>
-          <td>Ein paar Worte</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-  <div> Hobby
-    <div>
-      <a href="./Hoppy/Hobby.html">Hobby</a>
-    </div>
-  </div>
-
-  <footer>
-    Erste Webseite von Johannes
-  </footer>
 </html>
