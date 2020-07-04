@@ -1,0 +1,52 @@
+.homepageTitle {
+  color: darkblue;
+  background-color: cornflowerblue;
+  font-size: xx-large;
+  text-align: center;
+}
+.title1 {
+  color: blue;
+  font-size: x-large;
+  text-decoration: underline;
+}
+.text {
+  color: blue;
+  font-size: medium;
+}
+
+li {
+  color: blue;
+  font-size: large;
+}
+
+table,
+th,
+td {
+  color: blue;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 5px;
+}
+
+th {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.emoji {
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+#title2 {
+    color: aqua;
+}
+
+.bg  {
+    background-color: lightskyblue;
+}
