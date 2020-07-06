@@ -3,6 +3,7 @@
   background-color: cornflowerblue;
   font-size: xx-large;
   text-align: center;
+  
 }
 .title1 {
   color: blue;
@@ -26,7 +27,7 @@ td {
   font-size: large;
   border: 1px solid black;
   border-radius: 1em;
-  padding: 5px;
+  padding: 5px;   /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
 }
 
 th {
