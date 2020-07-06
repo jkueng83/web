@@ -51,3 +51,24 @@ footer {
 .bg  {
     background-color: lightskyblue;
 }
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Um die Elemente ist ein konstanter abstand*/
+  
+  background-color: yellowgreen;
+}
+.flex-wrapper > div {
+  background-color: #f1f1f1;
+  width: 6em;
+  margin: 0.2em;
+  text-align: center; /* left, center, right*/
+  line-height: 100px;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.linkBackgroundColor{
+  background-color: aqua;
+}
