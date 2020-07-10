@@ -1,0 +1,30 @@
+
+
+/* element selector*/
+div{
+    background-color: aquamarine;
+}
+/* id selector*/
+#header{
+font-size:  1.5rem;
+color: red;
+}
+#text{
+font-size: 1rem;
+
+}
+/* classen selector */
+.subtitle{
+    font-size: 1.3rem;
+    color: green;
+}
+
+#text p {
+    background-color: yellow;
+
+}
+
+
+
+
+   

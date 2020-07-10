@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>units</title>
+    <style>
+      * {
+        margin: 0px;
+        font-size: 20px;
+      }
+      div {
+        height: 50px;
+        background-color: red;
+      }
+      .container1 {
+        width: 50%; /* % Anteil vom Vater Element */
+        height: 50%;
+        font-size: 0.8rem; /* r=root; bezieht sich auf die Basisschrift */
+      }
+
+      .container2 {
+        width: 50vw; /*vw = view port with ; 50%  des gesamten Bildschirm */
+        height: 50vh; /* vh = view port height; 50% der Bildschirmhöhe */
+        font-size: 1.5em; /* em = abhängig von der Vater Klasse*/
+      }
+      .main {
+        background-color: green;
+        height: 200px;
+        width: 800px;
+        font-size: 1.5rem; /* r =root */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        Hallo!
+      <div class="container1">
+        container 1 (%)
+      </div>
+      <div class="container2">
+        container 2 (vw)
+      </div>
+    </div>
+  </body>
+</html>

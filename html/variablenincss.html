@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variablen in Css</title>
+    <style>
+      * {
+        font-size: 18px;
+        --font-sice-big: 2em; /* mit "--" werden Variablen deklariert */
+        --font-sice-title: 2rem;
+        --font-sice-medium: 1.3rem;
+        --font-sice-normal: 0.8rem;
+        --title-background-color: blue;
+        --main-background-color: aqua;
+      }
+      .title {
+        color: violet;
+        font-size: var(--font-sice-title);
+        background-color: var(--title-background-color);
+      }
+      .header {
+        font-size: var(--font-sice-big); /* var() - Variable auswählen */
+        font-weight: 800;
+        background-color: var(--main-background-color);
+      }
+      .subheader {
+        font-size: var(--font-sice-medium);
+        background-color: var(--main-background-color);
+      }
+      .main {
+        font-size: var(--font-sice-normal);
+        background-color: var(--main-background-color);
+      }
+      .sidebar {
+        font-size: var(--font-sice-normal);
+        background-color: var(--main-background-color);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="title">Variablen in Css</div>
+    <div class="header">header</div>
+    <div class="subheader">subheader</div>
+    <div class="main">main</div>
+    <div class="sidebar">sidebar</div>
+  </body>
+</html>

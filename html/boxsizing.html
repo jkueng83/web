@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Sizing</title>
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      div {
+        height: 200px;
+        width: 100px;
+        background-color: goldenrod;
+        border-style: solid;
+      }
+      .second p{
+          display: none;
+      }
+
+      div:hover p{
+          display: block;
+          cursor:pointer;
+          background-color: aqua;
+          transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+
+      .second {
+        padding: 10px; /* Abstand nach innen , Achtung Box wird um 10px breiter (kann mit box-sizing unterdrückt werden, steht oben) */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">eins</div>
+    <div class="second">zwei
+        <p>test</p>
+    </div>
+  </body>
+</html>
